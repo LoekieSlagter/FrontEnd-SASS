@@ -1,0 +1,57 @@
+$primarycolor: lightgray;
+
+html{
+    background-color: $primarycolor
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: $primarycolor;
+}
+
+.navbar{
+    background-color: $primarycolor;
+    width: 100%;
+    color: $primarycolor;
+}
+
+.eat{
+    font-size: 50px;
+    background-color: $primarycolor;
+    color: deeppink;
+}
+
+.carousel_container{
+    width: 100%;
+    background-color: $primarycolor;
+.carousel_slide{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    background-color: $primarycolor;
+}
+}
+
+.row-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $primarycolor;
+    padding-top: 2%;
+}
+
+.row-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $primarycolor;
+    padding-top: 2%;
+}
+
+footer{
+    background-color: $primarycolor;
+    padding-left: 1%;
+}
